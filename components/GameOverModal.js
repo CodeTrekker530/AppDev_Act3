@@ -6,7 +6,7 @@ const GameOverModal = ({ visible, winner, turns, onRestart, onHome, gameMode }) 
   return (
   <Modal transparent={true} visible={visible} animationType="slide">
     <View style={styles.modalContainer}>
-      <View style={styles.modalContent}>
+      <View style={styles.modalContent}> 
 
         <Text style={styles.modalText}>
         {gameMode === "single" ? `Game Over!\nYou completed it in ${turns} turns.` : winner}
