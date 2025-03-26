@@ -7,14 +7,14 @@ import GameOverModal from "../components/GameOverModal";
 import styles from "../styles/styles";
 
 const cardImages = [
-  // { id: 1, image: require("../assets/cards/spades/ace.png") },
-  // { id: 2, image: require("../assets/cards/spades/sp2.png") },
-  // { id: 3, image: require("../assets/cards/spades/sp3.png") },
-  // { id: 4, image: require("../assets/cards/spades/sp4.png") },
-  // { id: 6, image: require("../assets/cards/spades/sp6.png") },
-  // { id: 8, image: require("../assets/cards/spades/sp8.png") },
-  // { id: 10, image: require("../assets/cards/spades/sp10.png") },
-  // { id: 11, image: require("../assets/cards/spades/spjack.png") },
+  { id: 1, image: require("../assets/cards/spades/ace.png") },
+  { id: 2, image: require("../assets/cards/spades/sp2.png") },
+  { id: 3, image: require("../assets/cards/spades/sp3.png") },
+  { id: 4, image: require("../assets/cards/spades/sp4.png") },
+  { id: 6, image: require("../assets/cards/spades/sp6.png") },
+  { id: 8, image: require("../assets/cards/spades/sp8.png") },
+  { id: 10, image: require("../assets/cards/spades/sp10.png") },
+  { id: 11, image: require("../assets/cards/spades/spjack.png") },
   { id: 12, image: require("../assets/cards/spades/spqueen.png") },
   { id: 13, image: require("../assets/cards/spades/spking.png") },
 ];
